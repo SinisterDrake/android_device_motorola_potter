@@ -472,4 +472,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
+
+
 PRODUCT_VENDOR_KERNEL_HEADERS := hardware/qcom/msm8996/kernel-headers
+
